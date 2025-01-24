@@ -1,0 +1,24 @@
+1. Análise Descritiva:
+
+Objetivo: Obter uma visão geral dos dados.
+
+Ferramentas:
+Média: A média aritmética para entender o valor típico.
+Mediana: Para verificar o valor central, especialmente útil quando os dados são assimétricos.
+Moda: O valor mais frequente.
+
+Desvio Padrão e Variância: Para entender a dispersão ou variabilidade dos dados.
+Mínimo e Máximo: Para verificar a faixa dos dados.
+Intervalo Interquartílico (IQR): Para medir a dispersão central e identificar outliers.
+
+Algumas considerações sobre a análise estatística:
+Embora a análise que você fez até agora seja válida para um estudo exploratório, existem algumas técnicas estatísticas que poderiam tornar seu trabalho mais robusto e aprofundado:
+
+1. Correlação entre DAP e CV:
+A correlação entre DAP e CV seria uma análise importante. Você pode calcular o coeficiente de correlação de Pearson para verificar a relação linear entre o DAP e o CV. Isso ajudaria a verificar se há uma tendência estatística de maior ou menor variabilidade conforme o tempo após o plantio. Caso os dados mostrem que a relação não é linear, você poderia aplicar métodos não paramétricos (ex.: correlação de Spearman).
+
+2. Análise de Variância (ANOVA):
+Caso você queira comparar diferentes grupos de setores e seus coeficientes de variação, você poderia aplicar uma análise de variância (ANOVA) para testar se as médias de CV de diferentes setores são significativamente diferentes entre si. Isso é especialmente útil se você tiver mais de dois setores e quiser avaliar a influência deles nas variações ao longo do tempo.
+
+3. Regressão:
+Se o seu objetivo for entender como o DAP afeta a variabilidade do CV, um modelo de regressão linear poderia ser uma boa escolha. Isso ajudaria a quantificar o impacto das variáveis independentes (como o DAP) sobre a variável dependente (o CV). Para dados não lineares, você pode usar uma regressão polinomial ou explorar modelos não paramétricos.
